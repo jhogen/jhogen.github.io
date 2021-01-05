@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mekong River</title>
+<link href="css/MekongRiver.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.0.0/mapbox-gl.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; width: 57%; height: 40%; }
+	
+	.marker {
+background-image: url("images/location-pin.png");
+background-size: cover;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+cursor: pointer;
+
+}
+.mapboxgl-popup {
+background-color: transparent;
+max-width: 200px;
+padding-bottom: 10px;
+}
+
+.mapboxgl-popup-content {
+text-align: center;
+font-family: 'montserrat';
+	color:#e6999d;
+	background-color: #1c1c21;
+	
+	}
+	
+	.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+	color: #e6999d;
+    opacity: 1;
+}
+
+.fa-facebook {
+  background: #1c1c21;
+  color: white;
+}
+
+.fa-twitter {
+  background: #1c1c21;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #1c1c21;
+  color: white;
+}
+
+.fa-youtube {
+  background: #1c1c21;
+  color: white;
+}
+
+.fa-instagram {
+  background: #1c1c21;
+  color: white;
+}	
+</style>
+</head>
+	
+<body>
+	<binnencontainer>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+	<buitenbalk>
+  <header> <a href="">
+	  <img class="tropenmuseum" height="40px" src="../HWUD/images/logo tropenmuseum.svg">
+  </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="PearlRiver.html">PEARL RIVER</a></li>
+		  <li> <a href="MekongRiver.html"><span style="color:#E6999D">MEKONG RIVER</span></a></li>
+		  <li> <a href="Comparison.html">COMPARISON</a></li>
+      </ul>
+  </nav>
+  </header>
+		</buitenbalk>
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <h2 class="hero_header"></h2>
+    <p class="tagline"></p>
+	  <div class="CenterText1">
+		    <div class="TextBlock1">
+				<h4 class="TextWidth1"><span style="color:#E6999D"><font size="+2">MEKONG RIVER DELTA</font></span></h4>
+		   </div>
+	  </div>
+  </section>
+  <!-- About Section -->
+   
+  <section class="banner_intro">
+	  <binnencontainer>
+		  <h4 class="parallax_intro"><span style="color:#E6999D">THE MEKONG RIVER</span></h4>
+    <p class="parallax_description_intro"><img class="MekongMapFinal" src="images/MekongMapFinal.png" width="56%" height="56%" align="right">
+The Mekong delta is a large delta created by the Mekong river. The Mekong river is one of the longest rivers in the world, let alone Asia. It is estimated to be over 4350 kilometers long, spanning from the Tibetan Plateau in southern China, all the way to the southern part of Vietnam, where the delta area is located. Along the way it runs through the countries of China, Myanmar, Laos, Thailand, Cambodia and Vietnam. 
+<br>
+<br>
+The delta that we are focusing on is located in Vietnam, but the river has multiple delta area's along it's way. The river has such a large span of side-rivers, that it drains an area of over 495.000 square kilometers.
+<br>
+<br>
+The fact that the river is over 4000 kilometers long and has a lot of smaller rivers splitting out of the main river, makes it very important for the countries it flows through. Not just because the Mekong is a huge source of freshwater, due to it's large drainage area. But also because the river is a 'highway' for trade in the area. 
+<br>
+<br>
+This makes it sound like the river is easy to navigate, otherwise it wouldn't be this important for trade in the area. But the opposite is true. The river has been very tough to navigate throughout history, which is one of the reasons why there are a lot of different countries in the area, despite most of them having a very similar culture.</p>
+		</binnencontainer>
+  </section>
+	
+  <achtergrond>
+  
+  <section class="banner_bio">
+	  <binnencontainer>
+		  
+		  <h4 class="parallax_bio"><span style="color:#E6999D">BIODIVERSITY</span></h4>
+    <p class="parallax_description_bio">
+	
+		
+The Mekong and it's tributaries account to one the richest areas of biodiversity in the world. It is so diverse that it's only beaten by the Amazon river in South-America. The Mekong river boasts an impressive 20.000 plant species, 430 mammals, 1200 birds, 800 reptiles and amphibians and over 850 different species of freshwater fish. These are the currently known statistics, but they are known to keep changing. New species are regularly discovered in the Mekong river, not just species that weren't known to live in and around the river, but new and unknown species all together. It is even said that an average of two new species are discovered in the region, per week!
+	
+				 
+<br>
+<br>
+<img class="MekongBiodiversity" src="images/VietnamBio.jpg" width="500px" height="500px" align="left">	
+Now that we've mentioned it's overall biodiversity, it's time we get into the aquatic biodiversity. The Mekong has the highest concentrated biodiversity per hectare of any river! This is of huge importance to the local economies of the area, now and throughout history. The people that inhabit the region are very dependent on the biodiversity of the area. A large part of food comes from aquatic animals, namely the black- and the white fish. Which have been favored by the local population for centuries. But these two fishes are long but the only sources of food coming from the rivers. Crabs, shrimps, snakes, turtles, frogs and other freshwater fishes are all of incredible importance.
+<br>
+<br>
+But a very important distinction has to be made. These 'fisheries' can be divided into two main groups: the wild captures and the fish grown in controlled conditions. The latter is mostly 'grown' for the international market and/or the big cities. While the wild captures are hugely important in the sustainability of the local communities that live adjacent to the Mekong river. It is estimated that 40 million rural people, which is over two-thirds of the total rural population in the lower basin area of the Mekong, are involved in the forementioned wild capture fishery.
+
+		<h4 class="parallax_bio2"><span style="color:#E6999D">FIVE OF THE MOST BIODIVERSE RIVERS</span></h4>
+		  <p class="parallax_description_bio">This interactive map showcases five of the most biodiverse rivers on the planet.
+		  <br>
+		 
+			  <br>
+			   
+			  <br>
+			  The Cahaba-, Amazon-, Congo-, Ganges- and Mekong River!
+			  <br>
+			  
+			  (Click on the marker to see the name of the river)
+		  </p>
+		  </p>
+ <div class="MapBox">
+	 
+		  	  <div id="map"></div>
+
+<script>
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiamhvZ2VuIiwiYSI6ImNrNjIzbGRuZDAxMnAzb3FwY2Iya2d6M2MifQ.9xTA0ZtsWmnH_mxBPcXWng';
+
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/jhogen/ckiiyoc62363519s196s3gh2i',
+center: [10, 25],
+zoom: 1.8
+});
+
+var geojson = {
+type: 'FeatureCollection',
+features: [
+	
+{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [105.6, 9.7]
+},
+properties: {
+title: 'Vietnam',
+description: 'Mekong River'
+}
+},
+		   
+{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [20.9, 2.0]
+},
+properties: {
+title: 'D.R.C.',
+description: 'Congo River'
+}
+},
+		   
+{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [-56.5, -2.3]
+},
+properties: {
+title: 'Brazil',
+description: 'Amazon River'
+}
+},
+		   
+{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [-86.3, 34.4]
+},
+properties: {
+title: 'U.S.A.',
+description: 'Cahaba River'
+}
+},
+		   
+{
+type: 'Feature',
+geometry: {
+type: 'Point',
+coordinates: [89.9, 23.4]
+},
+properties: {
+title: 'Bangladesh',
+description: 'Ganges River'
+}
+},
+		  
+		  
+		  ]
+};
+
+ // add markers to map
+geojson.features.forEach(function(marker) {
+
+ // create a HTML element for each feature
+var el = document.createElement('div');
+el.className = 'marker';
+
+ // make a marker for each feature and add to the map
+new mapboxgl.Marker(el)
+.setLngLat(marker.geometry.coordinates)
+.setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+.setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+.addTo(map);
+});
+</script>
+</div>
+		  
+		</binnencontainer>
+  </section>
+	  
+
+
+<section class="banner_history">
+	  <binnencontainer>
+    <h4 class="parallax_history"><span style="color:#E6999D">HISTORY OF TRADE AND TRANSPORTATION</span></h4>
+    <p class="parallax_description_history">
+		<img class="MekongHistoryPic" src="images/VietnamHistory.jpg" width="600px" height="400px" align="right">
+So it is safe to say that fishing is the absolute backbone of society in and around the Mekong delta. This is visible now, but the effect was even stronger throughout history, when there were no cars, planes, motor-propelled boats, or anything similar. This meant that every capture of fish, that wasn't being eaten directly, has to be transported via different means.
+		
+<br>
+<br>
+This leaves only two options: by land, or by water. If you have no prior knowledge of this area, you might think that that is not a problem at all. But the mekong delta is a huge swamp that floods regularly. You can imagine that getting from one point to the other, across vast floodplains is already a huge task, but you also have to imagine that there were no roads. So if you were to transport a heavy load of fish, that does not stay fresh for long in the summer heat of Southeast Asia, you would have to be very quick. Which is impossible for long- or even medium length distances. 
+<br> 
+<br>
+This makes transportation and trade via land very tiresome, costly, and in conclusion, inefficient. 
+	
+<br>
+<br>
+So only one other navigation method remains: water.
+<br>
+<br>
+As previously mentioned, the river flows all the way from the Tibetan Plateau in China to the Mekong delta in Vietnam. This means the river has to traverse a lot of different types of terrain, floodplains, jungle, dry valleys, etc. This alone means the river has to adapt to all these surroundings, and so do you, if you were to traverse it by boat. You will have to be prepared for extreme seasonal variations in flow and climate. But the biggest issue with the river is not the climate changes and the biomes that the river flows through, no, it's the fact that there is a huge difference in height along the river. This causes the river to contain numerous rapids and waterfalls, which make navigation by boat very difficult, atleast for longer distances.
+<br>
+<br>
+Even though navigation by boat on the Mekong river has always been a high risk, the river still remains a major trade route between western China and Southeast Asia.
+		<br>
+		<br>
+		<h4 class="parallax_history"><span style="color:#E6999D">HEIGHT AT WHICH THE MEKONG RIVER ENTERS THE COUNTRY (IN METERS)</span></h4>
+
+		<div class="HistoryData"><iframe title="Height at which the Mekong river enters the country" aria-label="chart" id="datawrapper-chart-pDGpl" src="https://datawrapper.dwcdn.net/pDGpl/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 98% !important; border: none;" height="100%"><iframe title="Height at which the Mekong river enters the country" aria-label="chart" id="datawrapper-chart-pDGpl" src="https://datawrapper.dwcdn.net/pDGpl/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="367"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+		
+</script>
+		</div>
+		
+<h4 class="parallax_bio3"><span style="color:#E6999D">GREATER MEKONG AREA THROUGHOUT HISTORY</span></h4>
+		  <p class="parallax_description_bio">Three images showcasing the borders of South-East Asia around the Mekong river, over time.
+		  <br>
+		 
+			  <br>
+			   From left to right: 
+			  <br>
+			  1832, 1948, 1967
+		  </p>
+		  </p>
+</p>
+		</binnencontainer>
+  </section>
+  
+	<div class="maps_history">
+		<img class="map1" src="images/1832 Mekong.jpg" width="28%">
+		<img class="map2" src="images/1948 Mekong.jpg" width="28%">
+		<img class="map3" src="images/1967 Mekong.jpg" width="28%">
+	</div>
+	
+	
+<section class="footer_banner" id="contact">
+    <h2 class="hidden">Footer Banner Section </h2>
+    <p class="hero_header">TROPENMUSEUM</p>
+ 
+  </section>
+  <!-- Copyrights Section -->
+	<div class="copyright"><strong><span style="color:white">SOCIAL MEDIA</span></strong></div>
+	<div class="socialmedia">
+		<a href="https://www.facebook.com/tropenmuseum/" class="fa fa-facebook"></a>
+		<a href="https://twitter.com/Tropenmuseum" class="fa fa-twitter"></a>
+		<a href="https://www.linkedin.com/company/tropenmuseum-afrikamuseum-museumvolkenkunde/" class="fa fa-linkedin"></a>
+		<a href="https://www.youtube.com/user/Tropenmuseum" class="fa fa-youtube"></a>
+		<a href="https://www.instagram.com/tropenmuseum/" class="fa fa-instagram"></a>
+	</div>
+  
+</body>
+</html>
