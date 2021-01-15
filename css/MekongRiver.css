@@ -267,6 +267,7 @@ padding-bottom: 25px;
 .MapBox {
 	margin-left: 50px;
 	float: left;
+	max-width: 800px;
 
 }
 

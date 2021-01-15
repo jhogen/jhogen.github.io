@@ -163,7 +163,7 @@ achtergrond {
 	float: left;
 	padding: 50px;
 	height: 320px;
-	background-size: 110%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	
 }
@@ -171,7 +171,7 @@ achtergrond {
 .kader_rechts {
 	margin-top: 30px;
 	width: 45.5%;
-	background-color: #2c2c30 !important;
+	background-color: #252529 !important;
 	text-align: left !important;
 	display: inline-block;
 	float: right;
@@ -188,7 +188,7 @@ achtergrond {
 	float: right;
 	padding: 50px;
 	height: 320px;
-	background-size: 120%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	
 }
@@ -215,7 +215,7 @@ achtergrond {
 	float: right;
 	padding: 50px;
 	height: 320px;
-	background-size: 120%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	
 }
@@ -378,7 +378,7 @@ img.foto_about2 {
 }
 
 .banner2 {
-	background-color: #2c2c30;
+	background-color: #252529;
 	height: 290px;
 	padding-right: 50px;
 	background-size: cover;
@@ -474,17 +474,17 @@ footer .footer_column p {
 }
 
 .button1 {
-	width: 150px;
+	width: 110px;
 	margin-top: 40px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0;
 	padding-top: 10px;
-	padding-right: 8px;
+	padding-right: 14px;
 	padding-bottom: 10px;
-	padding-left: 8px;
-	text-align: center;
-	vertical-align: middle;
+	padding-left: 14px;
+	text-align: left;
+	vertical-align: center;
 	border-radius: 0px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -500,16 +500,16 @@ footer .footer_column p {
 }
 
 .button2 {
-	width: 150px;
+	width: 110px;
 	margin-top: 40px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0;
 	padding-top: 10px;
-	padding-right: 8px;
+	padding-right: 14px;
 	padding-bottom: 10px;
-	padding-left: 8px;
-	text-align: center;
+	padding-left: 14px;
+	text-align: left;
 	vertical-align: middle;
 	border-radius: 0px;
 	text-transform: uppercase;
@@ -526,16 +526,16 @@ footer .footer_column p {
 }
 
 .button3 {
-	width: 150px;
+	width: 140px;
 	margin-top: 40px;
 	margin-right: auto;
 	margin-bottom: auto;
 	margin-left: 0;
 	padding-top: 10px;
-	padding-right: 8px;
+	padding-right: 14px;
 	padding-bottom: 10px;
-	padding-left: 8px;
-	text-align: center;
+	padding-left: 14px;
+	text-align: left;
 	vertical-align: middle;
 	border-radius: 0px;
 	text-transform: uppercase;

@@ -174,7 +174,7 @@ ul li:hover a {
 
 .banner_intro {
 	background-color: #2C2C30;
-	height: 1160px;
+	height: 1290px;
 	padding-right: 50px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -251,7 +251,7 @@ padding-top: 25px;
 
 .banner_history {
 	background-color: #2C2C30;
-	height: 610px;
+	height: 670px;
 	padding-right: 50px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -271,6 +271,7 @@ padding-top: 25px;
 	color: #FFFFFF;
 	text-align: left;
 	padding-left: 50px;
+	padding-bottom: 60px;
 	width: 95%;
 	float: left;
 	font-weight: lighter;
@@ -282,7 +283,20 @@ padding-top: 25px;
 }
 
 .ComparisonCity{
-padding-left: 50px;
+padding-right: 30px;
+padding-top: 30px;
+	
+}
+
+.ComparisonBiodiversity{
+padding-left: 30px;
+padding-top: 0px;
+	
+}
+
+.ComparisonIntro{
+padding-left: 30px;
+padding-bottom: 10px;
 	
 }
 
