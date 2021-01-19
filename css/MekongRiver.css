@@ -98,9 +98,11 @@ ul li a {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-ul li:hover a {
+ul li:hover a{
 	color: #2C9AB7;
 }
+
+
 .hero_header {
 	color: #FFFFFF;
 	text-align: center;
@@ -112,7 +114,7 @@ ul li:hover a {
 }
 /* Hero Section */
 .hero {
-	background-image: url("../images/MekongWhiteHouse.jpg");
+	background-image: url("../images/MekongRiverGIF.gif");
 	padding-top: 349px;
 	padding-bottom: 380px;
 	background-position: center;
@@ -356,9 +358,12 @@ padding-top: 0px;
 }
 
 .socialmedia {
+	padding-right: 120px;
+	
+	float: center;
 	text-align: center;
 	padding-top: 10px;
-	padding-bottom: 80px;
+	padding-bottom: 180px;
 	background-color: #1c1c21;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -368,9 +373,10 @@ padding-top: 0px;
 }
 
 .footer_banner {
+	width: 1200px;
 	background-color: #1c1c21;
-	padding-top: 80px;
-	padding-bottom: 60PX;
+	padding-top: 40px;
+	padding-bottom: 0PX;
 	margin-bottom: 0px;
 	background-image: url(../images/pattern.png);
 	background-repeat: repeat;
@@ -380,6 +386,49 @@ footer {
 }
 .hidden {
 	display: none;
+	
+}
+
+.LogoFooter{
+	padding-bottom: 20px;
+}
+
+.FooterWrap{
+float: center;
+width: 600px;
+	text-align: center;
+}
+
+
+.footersmall{
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	width: 25%;
+	float: right;
+}
+
+.LogoOnder{
+	margin-bottom: 25px;
+	border-bottom: 0.1px solid #e6999d;
+	padding-bottom: 25px;
+	padding-right: 220px;
+}
+.copyright:hover{
+	color: #2C9AB7;
+	
+}
+
+footersmall p a{
+	color: white;
+	
+	text-decoration: none;
+	
+}
+
+ footersmall p a:hover{
+	color: #2C9AB7;
+	
 }
 /* Mobile */
 @media (max-width: 320px) {

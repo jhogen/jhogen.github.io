@@ -31,7 +31,7 @@ h4 {
 }
 
 
-
+/* Container that decides the width of the page*/
 binnencontainer {
     max-width: 1200px !important;
     text-align: center;
@@ -73,6 +73,7 @@ header {
 }
 .tropenmuseum{padding-top: 5px;
 	
+/* Navigation */
 }
 nav {
 	float: right;
@@ -122,7 +123,7 @@ a:hover {
 }
 /* Hero Section */
 .hero {
-	background-image: url("../images/FrontPageImage.png");
+	background-image: url("../images/FrontPageGIF.gif");
 	padding-top: 449px;
 	padding-bottom: 380px;
 	background-position: center;
@@ -142,10 +143,10 @@ a:hover {
 	letter-spacing: 1px;
 }
 
-/* 2 losse kaders */
 
 
 
+/* Background */
 achtergrond {
 	
 	background-color: #1c1c21 !important;
@@ -554,7 +555,7 @@ footer .footer_column p {
 .copyright {
 	text-align: center;
 	padding-top: 10px;
-	padding-bottom: 80px;
+	padding-bottom: 20px;
 	background-color: #1c1c21;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -562,10 +563,27 @@ footer .footer_column p {
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
-.footer_banner {
+
+.socialmedia {
+	padding-right: 120px;
+	
+	float: center;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 180px;
 	background-color: #1c1c21;
-	padding-top: 80px;
-	padding-bottom: 60PX;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+
+.footer_banner {
+	width: 1200px;
+	background-color: #1c1c21;
+	padding-top: 40px;
+	padding-bottom: 0PX;
 	margin-bottom: 0px;
 	background-image: url(../images/pattern.png);
 	background-repeat: repeat;
@@ -575,6 +593,49 @@ footer {
 }
 .hidden {
 	display: none;
+	
+}
+
+.LogoFooter{
+	padding-bottom: 20px;
+}
+
+.FooterWrap{
+float: center;
+width: 600px;
+	text-align: center;
+}
+
+
+.footersmall{
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	width: 25%;
+	float: right;
+}
+
+.LogoOnder{
+	margin-bottom: 25px;
+	border-bottom: 0.1px solid #e6999d;
+	padding-bottom: 25px;
+	padding-right: 220px;
+}
+.copyright:hover{
+	color: #2C9AB7;
+	
+}
+
+footersmall p a{
+	color: white;
+	
+	text-decoration: none;
+	
+}
+
+ footersmall p a:hover{
+	color: #2C9AB7;
+	
 }
 
 /* Mobile */
