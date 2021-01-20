@@ -20,7 +20,7 @@
 	#map { position: absolute; width: 57%; height: 40%; }
 	
 	.marker {
-background-image: url("images/location-pin.png");
+
 background-size: cover;
 width: 40px;
 height: 40px;
@@ -185,7 +185,7 @@ features: [
 type: 'Feature',
 geometry: {
 type: 'Point',
-coordinates: [105.6, 9.7]
+coordinates: [93.87861111, 33.26756167]
 },
 properties: {
 title: 'Vietnam',
@@ -197,7 +197,7 @@ description: 'Mekong River'
 type: 'Feature',
 geometry: {
 type: 'Point',
-coordinates: [20.9, 2.0]
+coordinates: [26.27694444, -11.76783972]
 },
 properties: {
 title: 'D.R.C.',
@@ -209,7 +209,7 @@ description: 'Congo River'
 type: 'Feature',
 geometry: {
 type: 'Point',
-coordinates: [-56.5, -2.3]
+coordinates: [-74.19583333, -5.61719028]
 },
 properties: {
 title: 'Brazil',
@@ -221,7 +221,7 @@ description: 'Amazon River'
 type: 'Feature',
 geometry: {
 type: 'Point',
-coordinates: [-86.3, 34.4]
+coordinates: [-86.58500000, 33.69733833]
 },
 properties: {
 title: 'U.S.A.',
@@ -233,7 +233,7 @@ description: 'Cahaba River'
 type: 'Feature',
 geometry: {
 type: 'Point',
-coordinates: [89.9, 23.4]
+coordinates: [79.84000000, 30.8781063]
 },
 properties: {
 title: 'Bangladesh',
@@ -244,7 +244,50 @@ description: 'Ganges River'
 		  
 		  ]
 };
-
+      //dit is de geojson
+	map.on('load', function() {
+      map.addSource('geojson-overlay', {
+        'type': 'geojson',
+        'data': 'https://api.maptiler.com/data/450b4909-3e6b-47f5-acbc-30af58615342/features.json?key=aQVp60atL8n3iBYTdHuw'
+      });
+      map.addLayer({
+        'id': 'geojson-overlay-fill',
+        'type': 'fill',
+        'source': 'geojson-overlay',
+        'filter': ['==', '$type', 'Polygon'],
+        'layout': {},
+        'paint': {
+          'fill-color': '#fff',
+          'fill-opacity': 0.4
+        }
+      });
+      map.addLayer({
+        'id': 'geojson-overlay-line',
+        'type': 'line',
+        'source': 'geojson-overlay',
+        'layout': {},
+        'paint': {
+          'line-color': 'rgb(255, 255, 255)',
+          'line-width': 4
+        }
+      });
+      map.addLayer({
+        'id': 'geojson-overlay-point',
+        'type': 'circle',
+        'source': 'geojson-overlay',
+        'filter': ['==', '$type', 'Point'],
+        'layout': {},
+        'paint': {
+          'circle-color': 'rgb(0, 0, 0)',
+          'circle-stroke-color': '#fff',
+          'circle-stroke-width': 3,
+          'circle-radius': 6
+        }
+      });
+    });
+	//tot hier
+	
+	
  // add markers to map
 geojson.features.forEach(function(marker) {
 
@@ -259,6 +302,8 @@ new mapboxgl.Marker(el)
 .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
 .addTo(map);
 });
+
+
 </script>
 </div>
 		  
@@ -294,9 +339,7 @@ Even though navigation by boat on the Mekong River has always been a high risk, 
 		<br>
 		<h4 class="parallax_history"><span style="color:#E6999D">HEIGHT AT WHICH THE MEKONG RIVER ENTERS THE COUNTRY (IN METERS)</span></h4>
 
-		<div class="HistoryData"><iframe title="Height at which the Mekong river enters the country" aria-label="chart" id="datawrapper-chart-pDGpl" src="https://datawrapper.dwcdn.net/pDGpl/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 98% !important; border: none;" height="100%"><iframe title="Height at which the Mekong river enters the country" aria-label="chart" id="datawrapper-chart-pDGpl" src="https://datawrapper.dwcdn.net/pDGpl/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="367"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-</script>
-		
+		<div class="HistoryData"><iframe title="" aria-label="chart" id="datawrapper-chart-pDGpl" src="https://datawrapper.dwcdn.net/pDGpl/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 98% !important; border: none;" height="367"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
 </script>
 		</div>
 		
