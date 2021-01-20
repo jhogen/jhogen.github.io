@@ -149,8 +149,8 @@ Now that we've mentioned it's overall biodiversity, it's time we get into the aq
 <br>
 But a very important distinction has to be made. These 'fisheries' can be divided into two main groups: the wild captures and the fish grown in controlled conditions. The latter is mostly 'grown' for the international market and/or the big cities. While the wild captures are hugely important in the sustainability of the local communities that live adjacent to the Mekong River. It is estimated that 40 million rural people, which is over two-thirds of the total rural population in the lower basin area of the Mekong, are involved in the forementioned wild capture fishery.
 
-		<h4 class="parallax_bio2"><span style="color:#E6999D">FIVE OF THE MOST BIODIVERSE RIVERS</span></h4>
-		  <p class="parallax_description_bio">This interactive map showcases five of the most biodiverse rivers on the planet.
+		<h4 class="parallax_bio2"><span style="color:#E6999D">FIVE OF THE MOST AQUATICALLY BIODIVERSE RIVERS</span></h4>
+		  <p class="parallax_description_bio">This interactive map showcases five of the most aquatically biodiverse rivers and their source.
 		  <br>
 		 
 			  <br>
@@ -173,8 +173,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiamhvZ2VuIiwiYSI6ImNrNjIzbGRuZDAxMnAzb3FwY2Iya
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/jhogen/ckiiyoc62363519s196s3gh2i',
-center: [10, 25],
-zoom: 1.8
+center: [10, 10],
+zoom: 1.2
 });
 
 var geojson = {
@@ -188,7 +188,7 @@ type: 'Point',
 coordinates: [93.87861111, 33.26756167]
 },
 properties: {
-title: 'Vietnam',
+title: 'China',
 description: 'Mekong River'
 }
 },
@@ -212,7 +212,7 @@ type: 'Point',
 coordinates: [-74.19583333, -5.61719028]
 },
 properties: {
-title: 'Brazil',
+title: 'Peru',
 description: 'Amazon River'
 }
 },
@@ -236,7 +236,7 @@ type: 'Point',
 coordinates: [79.84000000, 30.8781063]
 },
 properties: {
-title: 'Bangladesh',
+title: 'India',
 description: 'Ganges River'
 }
 },
@@ -267,8 +267,8 @@ description: 'Ganges River'
         'source': 'geojson-overlay',
         'layout': {},
         'paint': {
-          'line-color': 'rgb(255, 255, 255)',
-          'line-width': 4
+          'line-color': 'white',
+          'line-width': 2.5
         }
       });
       map.addLayer({
@@ -279,7 +279,7 @@ description: 'Ganges River'
         'layout': {},
         'paint': {
           'circle-color': 'rgb(0, 0, 0)',
-          'circle-stroke-color': '#fff',
+          'circle-stroke-color': 'white',
           'circle-stroke-width': 3,
           'circle-radius': 6
         }
